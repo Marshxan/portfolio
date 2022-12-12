@@ -1,153 +1,81 @@
-
-
-
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="src/styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
-    <title>Marshy's Portfolio</title>
-    <meta charset="UTF-8" />
-    <style>
-      html {
-  scroll-behavior: smooth;
-}
-    </style>
-  </head>
-  <body>
-      <section class="hero">
-          <nav>
-              <ul id="nav-list">
-                  <li><a href="#about-me">About me</a></li>
-                  <li><a href="https://github.com/marshxan">Github</a></li>
-                  <li><a href="https://marshy.lol/contact">Contact</a></li>
-              </ul>
-              <button class="hamburger" id="hamburger">
-                  <i class="fas fa-bars"></i>
-              </button>
-          </nav>
-          <div class="hero-area">
-            <div class="hero-text">
-                <h1>Marshy</h1>
-                <p>Bot Developer</p>
-                <div class="button"><a href="#about-me">About me</a></div>
-            </div>
-            <div class="socials">
-                <div><a href="https://twitter.com/marshxan" class="social">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
-                </a></div>
-                <div><a href="https://github.com/marshxan"  class="social">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                </a></div>
-            </div>
-          </div>
-      </section>
-      <section class="sub-section" id="about-me">
-          <div class="information">
-              <h2>About Me Myself And I.</h2>
-              <p>Hello All 👋, My Name Is Ricky And I Am A Developer From The UK Who Codes In Javascript, HTML, Lua And Css. Thank You For Checking Out My Portfolio... If You Have Any Questions Please Email Me Over At Ricky@Marshy.lol Or Contact Me Through Discord/Github</p>
-          </div>
-          <div class="headshot-container">
-              <img class="headshot" src="https://cdn.discordapp.com/avatars/931980616344416316/da7eb510d51ee3f1150f859d68da2a1a.png?size=1024" alt=""/>
-          </div>
-      </section>
-      <section class="sub-section-alternative" id="projects">
-          <h2>Github Projects</h2>
-          <div class="project-container">
-              <div class="project-card">
-                  <img class="project-image" src="https://cdn.discordapp.com/avatars/849603776343310336/2c642e9f1e987061d9985b2d55943d36.png?size=1024" alt="Project One Image"/>
-                  <h3>BTMC V2</h3>
-                  <p class="subtext">BTMC Is a Discord Bot That uses V16 javascript and has the latest discord features, BTMC has slash command support, moderation, logs, music</p>
-                  <hr/>
-                  <p class="subtext"><a class="project-link" href="https://github.com/Marshxan/BTMCv2">Official Github Repo</a></p>
-              </div>
-              <div class="project-card">
-                <img class="project-image" src="https://cdn.glitch.me/7d978bb6-9c27-4a75-8538-f7f237f77842%2Fsbb.jpg?v=1635964896551" alt="Project One Image"/>
-                <h3>Santa's Boom Box (SBB)</h3>
-                <p class="subtext">SBB Is A Disord Bot That Plays Christmas Music 24/7 From The Start Of November To The End Of January. SBB Is Made With Node v12.5.3 *NoSlashCommads*</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/Marshxan/SBB">Official Github Repo</a></p>
-              </div>
-              <div class="project-card">
-                <img class="project-image" src="https://cdn.discordapp.com/attachments/974842073335365694/1006300310282698812/discord.png" alt="Project One Image"/>
-                <h3>Discord Guild Logs For Javascript</h3>
-                <p class="subtext">Guild Logs Are Used So You Can Track What Server/Guild Your Bot Joins/Leaves.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/Marshxan/Discord-guild-logs">Official Github Repo</a></p>
-              </div>
-              <div class="project-card">
-                <img class="project-image" src="https://cdn.glitch.me/7d978bb6-9c27-4a75-8538-f7f237f77842%2Fmarshy.jpg?v=1635968032726" alt="Project One Image"/>
-                <h3>AutoBanBot</h3>
-                <p class="subtext">AutoBanBot is a free bot what auto bans suspicious people the code is below.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/Marshxan/AutoBanSelfBots">Source Code</a></p>
-              </div>
-                          <div class="project-card">
-                <img class="project-image" src="https://cdn.discordapp.com/attachments/974842073335365694/1006299378471932034/five.png" alt="Project One Image"/>
-                <h3>FiveM Spawn/Dv Command (Standalone)</h3>
-                <p class="subtext">This FiveM resource is for standalone servers that dont run a framework so they can spawn/dv cars on command.</p>
-                <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/Marshxan/Advanced-Spawn-DV">Official Github Repo</a></p>
-              </div>
-            
-
-            
-            
-            
-
-
-            
-            
-            
-          </div>
-      </section>
-      <footer id="contact-me">
-          <h2>Contact me</h2>
-          <p>Ricky@Marshy.lol</p>
-      </footer>
-    <script src="src/app.js"></script>
-  </body>
-</html>
-
-
-
-
-<!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-/* width */
-::-webkit-scrollbar {
-  width: 13px;
+  <title>Mega Marshy's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+    nav {
+      background-color: #eee;
+      padding: 20px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    section {
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: black;
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 0px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: lightblue; 
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #00C9FF; 
-}
-</style>
-</head>   
-
+  </style>
+</head>
 <body>
-
-
+  <header>
+    <div class="container">
+      <h1>Mega Marshy's Page</h1>
+    </div>
+  </header>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="https://github.com/marshxan">Github</a></li>
+        <li><a href="https://marshy.lol/contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <div class="container">
+      <h2>Marshy</h2>
+      <p>Developer In The Following:</p>
+            <p>HTML, CSS, SCSS, EJS, Javascript, Typescript, Lua, Python</p>
+           <p>-</p>
+          <p>Check My Github Projects Out!</p>
+                    <li><a href="https://github.com/Marshxan/Discord-DevBadge">Discord Early Bot Developer Badge</a></li>
+                      <li><a href="https://github.com/Marshxan/WarrantCard">FiveM Warrant Card Flash</a></li>
+                        <li><a href="https://github.com/Marshxan/qb-inventoryfood">FiveM qb-inventoryfood Items</a></li>
+                          <li><a href="https://github.com/Marshxan/qb-inventorydrinks">FiveM qb-inventorydrinks Items</a></li>
+                            <li><a href="https://github.com/Marshxan/LessLocals">FiveM LessLocals Script</a></li>
+                              <li><a href="https://github.com/Marshxan/qb-NHSbodycam">FiveM QBCore NHS Bodycamera</a></li>
+                                <li><a href="https://github.com/Marshxan/qb-bodycam">FiveM QBCore MET Police Bodycamera</a></li>
+                                  <li><a href="https://github.com/Marshxan/Advanced-Spawn-DV">FiveM standalone Advanced Spawn/DV Script</a></li>
+    </div>
+  </section>
+  <footer>
+  <p>Contact Me:</p>
+  <p><a href="mailto:Ricky@Marshy.lol">Ricky@Marshy.lol</a></p>
+</footer>
 </body>
 </html>
-
